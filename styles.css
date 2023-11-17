@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#welcome-section h1 {
+  font-size: 2rem;
+}
+#welcome-section h2 {
+  margin-top: 1em;
+  font-size: 1.2rem;
+  color: rgb(200, 50, 50);
+  font-style: italic;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  height: 48px;
+  background-color: rgb(200, 50, 50);
+  width: 100%;
+  border-bottom: 2px solid rgb(40, 40, 40);
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+}
+#navbar a {
+  text-decoration: none;
+}
+main {
+  margin-top: 48px;
+  background-color: rgb(60, 60, 60);
+}
+#projects {
+  background-color: rgb(20, 80, 200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.project-tile a {
+  width: 100%;
+  background-color: rgb(60, 60, 60);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+#projects img {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#contact h1 {
+  margin-top: 100px;
+}
+#contact h3 {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+#contact p {
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid rgb(200, 50, 50);
+  padding: 1rem 0;
+}
+@media screen and (min-width: 200px) {
+  body {
+    background-color: inherit;
+  }
+}
